@@ -1,8 +1,8 @@
-var item_count = 5;
+var item_count = 10;
 var word_per_item = 5;
 var width = 1000,
     height = 1000,
-	fontSize = 20;
+	fontSize = 14;
 
 			var wordList = [
 	{text: "Juan",topic:2,sentiment:2,frequency:27,fitVal:0.2},
@@ -10,7 +10,7 @@ var width = 1000,
 	{text: "JUAN",topic:1,sentiment:2,frequency:25,fitVal:0.2},
 	{text: "MARIN",topic:1,sentiment:2,frequency:24,fitVal:0.2},
 	{text: "BERGMAN",topic:4,sentiment:2,frequency:24,fitVal:0.2},
-	{text: "women",topic:0,sentiment:2,frequency:23,fitVal:0.2},
+	{text: "women",topic:0,sentiment:0,frequency:23,fitVal:0.2},
 	{text: "TAMAYO",topic:3,sentiment:2,frequency:17,fitVal:0.2},
 	{text: "RODRIGUEZ",topic:3,sentiment:2,frequency:16,fitVal:0.2},
 	{text: "sexual",topic:0,sentiment:2,frequency:15,fitVal:0.2},
@@ -18,7 +18,7 @@ var width = 1000,
 	{text: "Maricruz",topic:1,sentiment:2,frequency:15,fitVal:0.2},
 	{text: "case",topic:2,sentiment:2,frequency:15,fitVal:0.2},
 	{text: "Schultz",topic:0,sentiment:2,frequency:14,fitVal:0.2},
-	{text: "WOMEN",topic:1,sentiment:2,frequency:14,fitVal:0.2},
+	{text: "WOMEN",topic:1,sentiment:-1,frequency:14,fitVal:0.2},
 	{text: "harassment",topic:0,sentiment:-1,frequency:13,fitVal:0.2},
 	{text: "CASE",topic:1,sentiment:2,frequency:13,fitVal:0.2},
 	{text: "told",topic:2,sentiment:2,frequency:12,fitVal:0.2},
@@ -30,4 +30,19 @@ var width = 1000,
 	{text: "mas",topic:3,sentiment:2,frequency:8,fitVal:0.2},
 	{text: "workers",topic:4,sentiment:2,frequency:8,fitVal:0.2},
 	{text: "OLIVIA",topic:3,sentiment:2,frequency:7,fitVal:0.2},
+	{text: "mas",topic:5,sentiment:2,frequency:8,fitVal:0.2},
+	{text: "workers",topic:5,sentiment:2,frequency:10,fitVal:0.2},
+	{text: "OLIVIA",topic:5,sentiment:2,frequency:15,fitVal:0.2},
+	{text: "mas_6",topic:6,sentiment:2,frequency:8,fitVal:0.2},
+	{text: "workers_6",topic:6,sentiment:2,frequency:10,fitVal:0.2},
+	{text: "OLIVIA",topic:6,sentiment:2,frequency:15,fitVal:0.2},
+	{text: "mas",topic:7,sentiment:-1,frequency:8,fitVal:0.2},
+	{text: "workers",topic:7,sentiment:1,frequency:10,fitVal:0.2},
+	{text: "OLIVIA_7",topic:7,sentiment:1,frequency:15,fitVal:0.2},
+	{text: "mas",topic:8,sentiment:-1,frequency:8,fitVal:0.2},
+	{text: "workers",topic:8,sentiment:1,frequency:10,fitVal:0.2},
+	{text: "OLIVIA_8",topic:8,sentiment:1,frequency:15,fitVal:0.2},
+	{text: "mas",topic:9,sentiment:-1,frequency:8,fitVal:0.2},
+	{text: "workers",topic:9,sentiment:1,frequency:10,fitVal:0.2},
+	{text: "OLIVIA_9",topic:9,sentiment:1,frequency:15,fitVal:0.2},
 ];
